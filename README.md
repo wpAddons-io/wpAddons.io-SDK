@@ -1,6 +1,6 @@
-# wpaddons-io-sdk
+# wpAddons.io SDK
 
-wpAddons is a new arena where you can promote extensions and addons built for WordPress plugins.
+[wpAddons](https://wpAddons.io/) is a new arena where you can promote extensions and addons built for WordPress plugins.
 
 ## Initializing the SDK
 

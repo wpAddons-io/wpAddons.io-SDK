@@ -31,12 +31,7 @@
 	height: auto;
 }
 #wpaddons-io-wrap .addon .addon-content {
-	padding: 15px 20px 30px;
-}
-#wpaddons-io-wrap .addon .addon-icon-end,
-#wpaddons-io-wrap .addon .addon-icon-start {
-	width: 128px;
-	height: 128px;
+	padding: 15px 20px 40px;
 }
 #wpaddons-io-wrap .addon .addon-icon-end {
 	float: right;
@@ -133,4 +128,23 @@
 	float: right;
 	margin-right: 0;
 	margin-left: 15px;
+}
+
+/**
+ * ICONS
+ */
+.half .addon .addon-icon-end,
+.half .addon .addon-icon-start {
+	width: 196px;
+	height: 196px;
+}
+.third .addon .addon-icon-end,
+.third .addon .addon-icon-start {
+	width: 128px;
+	height: 128px;
+}
+.quarter .addon .addon-icon-end,
+.quarter .addon .addon-icon-start {
+	width: 64px;
+	height: 64px;
 }

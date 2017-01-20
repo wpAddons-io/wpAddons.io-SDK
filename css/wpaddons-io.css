@@ -108,7 +108,7 @@
 }
 
 /* four columns on the dashboard */
-@media only screen and (min-width: 1500px) and (max-width: 1800px) {
+@media only screen and (min-width: 1500px) {
 	#wpaddons-io-wrap .half .addon {
 		flex-basis: calc( ( 100% / 2 ) - 10px );
 	}

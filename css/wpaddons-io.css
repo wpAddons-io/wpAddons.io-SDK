@@ -18,6 +18,7 @@
 	align-content: flex-start;
 }
 #wpaddons-io-wrap .addon {
+	position: relative;
 	display: block;
 	border: 1px solid #ddd;
 	margin-bottom: 15px;
@@ -51,13 +52,22 @@
 	text-decoration: none;
 }
 #wpaddons-io-wrap .addon .addon-footer {
-	border-top: 1px solid #ddd;
 	position: absolute;
-	bottom: 2px;
-	left: 0;
+	bottom: 0;
 	width: 100%;
-	background-color: #FFF;
-	padding: 15px 20px;
+	background-color: #eee;
+	border-top: 1px solid #ddd;
+	padding: 10px 20px;
+}
+#wpaddons-io-wrap .addon .addon-footer p {
+	margin: 0;
+	padding: 0;
+}
+#wpaddons-io-wrap .addon span.addon-price {
+	font-weight: bold;
+}
+#wpaddons-io-wrap .addon span.addon-source {
+	float: right;
 }
 
 /**
